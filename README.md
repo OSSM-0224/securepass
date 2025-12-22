@@ -11,6 +11,7 @@ Step 1️⃣: Create Folders in Android Studio
 
 In your Android Studio project, create these folder structure under src/main/java/com/oysm/securepass/:
 
+```bash
 com/oysm/securepass/
 ├── data/
 │   ├── local/
@@ -23,7 +24,7 @@ com/oysm/securepass/
 ├── viewmodel/
 ├── security/
 └── (MainActivity.kt, App.kt in root)
-
+```
 
 How to create folders:
 
@@ -218,3 +219,4 @@ Where xxx is the folder path. Example:
 data/models/PasswordEntity.kt → package com.oysm.securepass.data.models
 
 ui/screens/HomeScreen.kt → package com.oysm.securepass.ui.screens
+
